@@ -54,6 +54,7 @@ const vueSocketOptions = {
 
 /**
  * socketio的二次封装
+ * 2023.2.14 带土 整理
  * @method init 初始化，传参 { proxy } = getCurrentInstance() as any
  * @method connListen 连接状态监听
  * @method addListener 注册默认订阅
