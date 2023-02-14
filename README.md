@@ -8,18 +8,19 @@ vue3可用的socketio 核心代码
 
 ## 依赖
 
-"pinia-plugin-persistedstate": "^3.0.2",
-"socket.io-client": "^4.6.0",
-"vue-3-socket.io": "^1.0.5",
+- "pinia-plugin-persistedstate": "^3.0.2",
+- "socket.io-client": "^4.6.0",
+- "vue-3-socket.io": "^1.0.5",
 
 
 
 ## 文件说明
 
-socket.io.ts： socket.io的二次封装，一般放在utils下
-index.ts：store的index，仅供参考
-socket.ts：store-socket
-socket.vue 组件内使用的一些demo
+1. socket.io.ts： socket.io的二次封装，一般放在utils下
+
+2. index.ts：store的index，仅供参考
+3. socket.ts：store-socket
+4. socket.vue 组件内使用的一些demo
 
 
 
